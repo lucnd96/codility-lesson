@@ -14,4 +14,3 @@ function solution(X, Y) {
     }
     return max;
 }
-
