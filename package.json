@@ -6,10 +6,15 @@
     "author": "lucnd96 <nguyenduyluc2009@gmail.com>",
     "license": "MIT",
     "private": false,
+    "type": "module",
     "devDependencies": {
         "prettier": "3.0.3"
     },
     "scripts": {
-        "lint": "yarn prettier . --write"
+        "lint": "yarn prettier . --write",
+        "test": "node executeTest.js"
+    },
+    "dependencies": {
+        "chalk": "^5.3.0"
     }
 }
